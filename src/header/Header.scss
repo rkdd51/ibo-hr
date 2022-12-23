@@ -1,0 +1,246 @@
+@import "../header/Avatar.scss";
+@import "../header/OfficeDetails.scss";
+
+.top-header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 111;
+  .navbar {
+    padding: 0 30px;
+    background: #fff;
+    border-bottom: 1px solid #d0d0d0;
+    .navbar-nav {
+      // @include responsive(lg) {
+      //   margin-top: 0;
+      // }
+      .menu-bar {
+        @media screen and (max-width: 1300px) {
+          padding-right: 5px;
+          padding-left: 5px;
+          font-size: 15px;
+        }
+        @media screen and (max-width: 1199px) {
+          padding-right: 0px;
+          padding-left: 0px;
+          font-size: 12px;
+        }
+        // @include responsive(lg) {
+        //   margin: 0 !important;
+        //   font-size: 16px;
+        //   padding: 10px 0;
+        // }
+      }
+    }
+    @media screen and (max-width: 1199px) {
+      padding: 5px 15px;
+    }
+    // @include responsive(md) {
+    //   padding: 5px 10px;
+    // }
+    .navbar-toggler {
+      // @include responsive(lg) {
+      //   border-radius: 0 !important;
+      //   padding: 4px 8px;
+      //   box-shadow: none;
+      // }
+    }
+
+    .left-side {
+      width: 100%;
+      display: flex;
+      // @include responsive(md) {
+      //   width: auto;
+      // }
+
+      .navbar-brand {
+        margin-right: 5rem;
+        display: flex;
+        align-items: center;
+
+        img.logo {
+          height: 40px;
+        }
+      }
+
+      #navbar-nav {
+        padding-top: 30px;
+        // @include responsive(md) {
+        //   display: none;
+        // }
+
+        .navbar-nav {
+          a {
+            padding: 0 0 1.375rem;
+            font-family: "McKinsey Sans Light";
+            border-bottom: 4px solid #fff;
+            margin-right: 25px;
+            color: #000;
+
+            &.active {
+              border-color: #2251ff;
+            }
+          }
+        }
+      }
+    }
+
+    .mobile-btn-wrapper {
+      display: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+
+      svg {
+        width: 24px !important;
+        height: 24px !important;
+      }
+      // @include responsive(md) {
+      //   display: block;
+      // }
+    }
+  }
+
+  .app-title-wrapper {
+    display: none;
+    padding: 0 30px;
+    background: #ececec;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 61px;
+  background: lighten(#e5e5e5, 5%);
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: none;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  // @extend .transition;
+  // @include responsive(md) {
+  //   display: block;
+  // }
+
+  &.opened {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  #navbar-nav {
+    background: #fff;
+    margin-bottom: 10px;
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        display: block;
+        font-size: 1.5rem;
+        padding: 23px;
+        font-family: "McKinsey Sans Medium";
+        border-bottom: 1px solid #e5e5e5;
+      }
+    }
+  }
+}
+
+.navbar {
+  font-family: "McKinsey Sans Regular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400 !important;
+  .navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 15px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    max-width: 20%;
+    @media screen and (max-width: 1199px) {
+      margin-right: 10px;
+    }
+    // @include responsive(lg) {
+    //   padding: 0;
+    //   margin-right: 0px;
+    // }
+    img {
+      width: 127px;
+      height: 75px;
+    }
+  }
+
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+  .menu-item {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px !important;
+    margin-top: calc(2rem - 5px);
+    a {
+      color: #333;
+      padding-bottom: 25px;
+      &.active {
+        border-bottom: 4px solid #2251ff;
+        color: #2251ff !important;
+      }
+      &:hover {
+        border-bottom: 4px solid #2251ff;
+        color: #2251ff !important;
+      }
+    }
+    .nav-item {
+      a {
+        color: #333;
+        &:hover {
+          border-bottom: none !important;
+        }
+      }
+      &:hover {
+        border-bottom: 4px solid #2251ff;
+        color: #2251ff !important;
+      }
+    }
+  }
+  .right-side {
+    display: flex;
+    position: relative;
+    //@include responsive(md) {
+    //  display: none;
+    //}
+    //.avatar-wrapper,.office-details-wrapper {
+    //  margin-right: 0px;
+    //  display: flex;
+    //  .icon-wrapper{
+    //    margin-right: 0px;
+    //    border-radius: 50%;
+    //    display: block;
+    //    place-items: center;
+    //    position: relative;
+    //  }
+    //  .abbreviation{
+    //    margin-right: 0.6rem;
+    //  }
+    //  .details-wrapper,.avatar-wrapper{
+    //    font-size: 12px;
+    //    padding: 4px;
+    //  }
+    //}
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    z-index: 111111;
+  }
+}

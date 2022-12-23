@@ -1,0 +1,47 @@
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  @media (max-width: 749px) {
+    margin-left: auto;
+    margin-right: 5px;
+  }
+
+  .abbreviation {
+    background: #0d1a25;
+    color: #fff;
+    height: 34px;
+    border-radius: 100%;
+    width: 34px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.2rem;
+    @media (max-width: 749px) {
+      margin-right: 0.5rem;
+    }
+
+    span {
+      font-size: 18px;
+      font-family: 'McKinsey Sans Medium';
+      letter-spacing: 1px;
+    }
+  }
+
+  .details {
+    margin: auto;
+    * {
+      white-space: nowrap;
+    }
+
+    .name {
+      font-family: 'McKinsey Sans medium';
+    }
+
+    .location {
+      font-family: 'McKinsey Sans Light';
+      font-size: 0.9rem;
+    }
+  }
+}

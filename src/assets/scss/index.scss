@@ -1,0 +1,23 @@
+@import "_global.scss";
+@import "./utils";
+
+/* Benefit Page ProgressBar */
+
+.progress-bar {
+  border-radius: 10px;
+}
+////////////////////////////////////////////
+
+/* Home Page */
+.mds-medium .css-ydot4f-ProgressBar {
+  border-radius: 10px;
+}
+.mds-medium .css-2dysci-ProgressBar {
+  border-radius: 10px;
+}
+.css-2dysci-ProgressBar:after {
+  border-radius: 10px;
+}
+.css-ydot4f-ProgressBar:after {
+  border-radius: 10px;
+}

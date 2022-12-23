@@ -1,0 +1,28 @@
+.table-id-button {
+  height: 34px !important;
+  border-radius: 6px !important;
+}
+.status-row {
+  justify-content: space-between !important;
+}
+
+.table-action-button {
+  height: 24px !important;
+  background-color: #2251ff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  &.disabled {
+    opacity: 0.5;
+  }
+}
+.down-button {
+  border-left: 1px solid white !important;
+}
+
+.singal-date-picker{
+  width: 100%;
+}
+.css-1pcbb8b-value{
+  opacity: 0;
+}

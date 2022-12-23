@@ -1,0 +1,27 @@
+footer.bottom-footer {
+  padding: 30px;
+  background: #fff;
+  border-top: 1px solid #d0d0d0;
+  padding-bottom: 0;
+
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .logo-wrapper {
+      margin-right: 5rem;
+      display: block;
+      img.logo {
+        height: 50px;
+      }
+    }
+
+    .copy {
+      font-family: 'McKinsey Sans Light';
+      font-size: 0.9rem;
+    }
+  }
+}

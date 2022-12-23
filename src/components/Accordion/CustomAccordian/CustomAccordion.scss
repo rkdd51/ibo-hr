@@ -1,0 +1,235 @@
+.myPersonalInfoHover:hover {
+  cursor: pointer;
+}
+
+.myPtoHover {
+  margin-left: 8px;
+}
+
+.myPtoHover:hover {
+  cursor: pointer;
+}
+.myHrTeamHover {
+  margin-left: 8px;
+}
+.myHrTeamHover:hover {
+  cursor: pointer;
+}
+.employmentDeclarationHover {
+  margin-left: 8px;
+}
+
+.employmentDeclarationHover:hover {
+  cursor: pointer;
+}
+
+//MyHR css
+
+.main-heading {
+  display: flex;
+  background: #3c96b4;
+  border-radius: 10px;
+  width: 326px;
+  height: 101px;
+}
+
+.main-heading h3 {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: white;
+  margin-top: 10px;
+}
+
+.main-heading p {
+  margin-left: 25px;
+  margin-top: 14px;
+}
+
+.answers {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  // justify-content: space-evenly;
+  width: 326px;
+  height: 101px;
+}
+
+.child {
+  align-items: center;
+  width: 71px;
+  height: 71px;
+  background: #3c96b4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  // text-align: center;
+}
+
+//Benefits css
+
+.secondMain-heading {
+  display: flex;
+  background: #027ab1;
+  border-radius: 10px;
+  width: 326px;
+  height: 101px;
+}
+
+.secondMain-heading h3 {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: white;
+  margin-top: 10px;
+}
+
+.secondMain-heading p {
+  margin-left: 25px;
+  margin-top: 14px;
+}
+
+.secondAnswers {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  // justify-content: space-evenly;
+  width: 326px;
+  height: 101px;
+}
+
+.secondChild {
+  align-items: center;
+  width: 71px;
+  height: 71px;
+  background: #027ab1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.secondDetails {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  // text-align: center;
+}
+
+.chequeCrecheHover:hover {
+  cursor: pointer;
+}
+
+.studentCheckHover {
+  margin-left: 8px;
+}
+.studentCheckHover:hover {
+  cursor: pointer;
+}
+
+.carPlanHover {
+  margin-left: 8px;
+}
+
+.carPlanHover:hover {
+  cursor: pointer;
+}
+
+.pensionFundHover {
+  margin-left: 8px;
+}
+.pensionFundHover:hover {
+  cursor: pointer;
+}
+
+//Compensation css
+
+.thirdMain-heading {
+  display: flex;
+  background: #051c2c;
+  border-radius: 10px;
+  width: 326px;
+  height: 101px;
+}
+
+.thirdMain-heading h3 {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: white;
+  margin-top: 10px;
+}
+
+.thirdMain-heading p {
+  margin-left: 25px;
+  margin-top: 14px;
+}
+
+.thirdAnswers {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  // justify-content: space-evenly;
+  width: 326px;
+  height: 101px;
+}
+
+.thirdChild {
+  background: #051c2c;
+  align-items: center;
+  width: 71px;
+  height: 71px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.thirdDetails {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  // text-align: center;
+}
+
+.myMonthlyPaySlipHover:hover {
+  cursor: pointer;
+}
+
+.myAnnualIncomeHover {
+  margin-left: 8px;
+}
+.myAnnualIncomeHover:hover {
+  cursor: pointer;
+}
+.mySeverancePlanHover {
+  margin-left: 8px;
+}
+
+.mySeverancePlanHover:hover {
+  cursor: pointer;
+}
+
+.myCompensationMemoHover {
+  margin-left: 8px;
+}
+
+.myCompensationMemoHover:hover {
+  cursor: pointer;
+}
